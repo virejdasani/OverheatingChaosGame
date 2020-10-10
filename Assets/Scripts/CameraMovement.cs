@@ -2,29 +2,19 @@
  using System.Collections;
  
  public class CameraMovement : MonoBehaviour {
-     public GameObject player;
- 
-     // Use this for initialization
-     void Start () {
-         
-     }
+
+    public CharacterController controllerPlayer;
+    public float speed;
+
+    // Use this for initialization
+    void Start () {
+        controllerPlayer = GetComponent<CharacterController>();
+    }
      
-     // Update is called once per frame
-     void Update () {
- 
-         if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Stationary)
-         {
-             Vector2 touchPosition = Input.GetTouch(0).position;
-             double halfScreen = Screen.width / 2.0;
- 
-             //Check if it is left or right?
-             if(touchPosition.x < halfScreen){
-                 player.transform.Translate(Vector3.left * 60 * Time.deltaTime);
-             } else if (touchPosition.x > halfScreen) {
-                 player.transform.Translate(Vector3.right * 60 * Time.deltaTime);
-             }
- 
-         }
- 
-     }
- }
+    // Update is called once per frame
+    void Update () {
+        Vector3 mov = new Vector3(SimpleInput.GetAxis("Horizontal")*speed, 0, SimpleInput.GetAxis("Vertical")*speed);
+
+        controllerPlayer.Move(mov * Time.deltaTime);
+    }
+}
