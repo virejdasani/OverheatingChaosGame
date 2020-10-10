@@ -587,48 +587,6 @@ ScriptsOnlyBuild:
     className: Cube
   - hash:
       serializedVersion: 2
-      Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Joystick
-  - hash:
-      serializedVersion: 2
-      Hash: 9e27f44bbf48228f203a37254d40f8ae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: JoystickSetterExample
-  - hash:
-      serializedVersion: 2
-      Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FloatingJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: 824e8d4cb47ffd88ddf959dbd4526585
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DynamicJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: ce669872a2be11bc686ea22961d8a3bb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FixedJoystick
-  - hash:
-      serializedVersion: 2
-      Hash: 528e9858840cb8370d93939fff6b42d9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: JoystickPlayerExample
-  - hash:
-      serializedVersion: 2
-      Hash: 9dac16f3efc511835ac976dfae55f580
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VariableJoystick
-  - hash:
-      serializedVersion: 2
       Hash: c89a1384954d290f5a73fc9263adcfdc
     assemblyName: SimpleInput.Runtime.dll
     namespaceName: SimpleInputNamespace
@@ -777,7 +735,13 @@ ScriptsOnlyBuild:
     assemblyName: SimpleInput.Runtime.dll
     namespaceName: SimpleInputNamespace
     className: SimpleInputDragListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimeManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Scene1.unity
-  playerPath: /home/virej/Desktop/Code/All-My-Projects/All-My-Games/Unity/Unity Projects/OverheatingChaos/Builds/0.8.apk
+  playerPath: /home/virej/Desktop/Code/All-My-Projects/All-My-Games/Unity/Unity Projects/OverheatingChaos/Builds/1.0.apk
