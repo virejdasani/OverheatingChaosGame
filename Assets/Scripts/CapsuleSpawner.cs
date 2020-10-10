@@ -16,7 +16,6 @@ public class CapsuleSpawner : MonoBehaviour
     void FixedUpdate()
     {
         objectPooler.SpawnFromPool("Capsule", transform.position, Quaternion.identity);
-        // objectPooler.SpawnFromPool("Cube", transform.position, Quaternion.identity);
         
     }
 }
