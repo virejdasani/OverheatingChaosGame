@@ -928,11 +928,11 @@ MonoBehaviour:
   - tag: Capsule
     prefab: {fileID: 7617333444596760917, guid: d2bb0bd3fa984a13a91197a5a4f4f4ef,
       type: 3}
-    size: 1500
+    size: 50000
   - tag: Cube
     prefab: {fileID: 7104936244055939165, guid: 3d27f223c61b37d83af0a712d49a4101,
       type: 3}
-    size: 1500
+    size: 50000
 --- !u!4 &1827424352
 Transform:
   m_ObjectHideFlags: 0
